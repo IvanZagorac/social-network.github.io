@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+button{
+	cursor: pointer;
+}
+
+body{
+	background-image: url("img/bg.jpg");
+	color: white;
+	padding: 50px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.logo {
+	text-align: center;
+}
+.naslov{
+	text-align: center;	
+	margin-bottom: 100px;
+}
+
+.formWrapper{
+	background-color:lightgrey;
+	padding: 20px;
+	margin: 0 auto;
+	width: 35%;
+	height: 220px;
+	line-height: 1.6;
+
+}	
+.formWrapper form{
+margin: 0 auto;
+}
+
+
+.formWrapper h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.formWrapper form button{
+	padding: 5px;
+	margin-top: 20px;
+	color: black;
+}
+.formWrapper form input{
+	width: 100%;
+	height: 35px;
+}
+
+.bezNaloga {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.bezNaloga button{
+	padding: 5px;
+}
+
+.modal {
+	display: none ;
+	color: white !important;
+	max-height: 70% !important;
+	background-color: black !important;
+	margin: auto !important;
+	position: absolute !important;
+	top: 110px !important;
+	left: 400px !important;
+	width: 100% !important;
+	max-width: 650px !important;
+	min-height: 50% !important;
+	padding: 50px !important;
+	line-height: 1.6 !important;
+	box-shadow: rgba(255,255,255,0.8) 0 0 1000px 1000px !important;
+
+}
+
+#closeModalBtn{
+	text-align: right;
+	font-weight: bold;
+	height: 20px;
+	border: 0;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+}
+
+.modal form input{
+	width: 100%;
+	height: 40px;
+
+}
+
+.modal form button{
+	padding: 10px;
+	margin-top: 50px;
+	font-size: 14px;
+
+}
+
+
+#registrationForm div ul{
+	list-style: none;
+}
+
+#registrationForm div ul li{
+	color: red;
+}
+
+.inner-container{
+	padding: 20px;
+	border: solid 1px green;
+	text-align: center;
+	color: white;
+
+}
+
+.inner-container.left-side img{
+	width: 70%;
+	border: 5px solid white;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	margin: auto;
+	padding: 5px;
+}
+
+.inner-container.left-side button{
+	padding: 5px;
+	display: inline-block;
+}
+
+#obrisiProfil{
+	padding: 5px !important;
+	border:1px solid red !important;
+	color: red !important;
+}
+.taib{
+	display: flex;
+}
+
+#postForm{
+	width: 100%;
+}
+
+#postForm textarea{
+	width: 70% !important;
+	min-height: 90px;
+	
+}
+#objaviButton{
+	padding: 5px !important;
+	text-align: center;
+	width: 25% !important;
+	background-color: grey !important;
+	border: 0;
+	color: white;
+	
+}
+
+.single-post{
+	background-color: grey;
+	padding: 20px;
+	margin-top: 30px;
+	font-size: 18px;
+	text-align: left;
+	border: 0;
+	
+}
+
+.post-content{
+	border-bottom: 1px solid black;
+}
+
+.komentari{
+	margin-top: 15px;
+	display: none;
+}
+#commentForm{
+	display: flex;
+	margin-top: 20px;
+}
+#napisatKom{
+	width: 72%;
+	min-height: 40px;
+	
+}
+
+#postaviKomentar{
+	padding: 5px;
+	width: 25%;
+	background-color: black;
+	color: white;
+}
+
+.emoji{
+	display: flex;
+	justify-content: right;
+}
+#likes{
+	background-image: url(img/like.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 0;
+	margin-right:10px ;
+	padding: 10px 10px 10px 30px;
+    background-color: grey
+}
+
+#comments{
+	background-image: url(img/comment.png);
+	border: 0;
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-right:10px ;
+	margin-left: 10px;
+	padding: 10px 10px 10px 30px;
+    background-color: grey
+}
+
+#deletePost{
+	border: 1px solid red;
+	color: red;
+	margin-left: 10px;
+}
+
+#sing_com{
+	border: 1px dashed green;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#autorKomentara{
+	color: green;
+}
+
+#greskaLogin{
+	color: red;
+}
