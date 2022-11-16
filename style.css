@@ -1,7 +1,6 @@
 @media screen and (max-width: 540px){
 	.formWrapper{
 		min-width: 65%;
-		min-width: 65%;
 	
 	}
 
@@ -12,12 +11,22 @@
 
 	.modal {
 
-		max-height: 40% !important;
-		max-width: 40% !important;
-		min-height: 30% !important;
+		
+		min-width: 60% !important;
+		min-height: 60% !important;
 		padding: 30px !important;
 		line-height: 1.6 !important;
 	
+	}
+
+	#napisatKom{
+		max-width: 63%;
+		font-size: 14px;
+	}
+
+	#postaviKomentar{
+		font-size: 14px;
+		min-width:34%;
 	}
 
 	#likes{
@@ -63,8 +72,7 @@ body{
 	background-color:lightgrey;
 	padding: 20px;
 	margin: 0 auto;
-	min-width: 35%!important;	
-	max-width: 35%!important;
+	min-width: 35%!important;
 	height: 220px;
 	line-height: 1.6;
 
@@ -102,7 +110,7 @@ margin: 0 auto;
 .modal {
 	display: none ;
 	color: white !important;
-	max-height: 70% !important;
+	max-height: 100% !important;
 	background-color: black !important;
 	margin: auto !important;
 	position: absolute !important;
